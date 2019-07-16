@@ -1,15 +1,18 @@
 // add solution here
-function theBeatlesPlay(musicians[],instruments[]){
-  var emptyArray = [];
+function theBeatlesPlay(musicians,instruments){
+  var factArray = [];
   for (i = 0, i < musicians.length, i ++){
-  var facts = musicians[i] + ' plays '+ insturments[i];
-  emptyArray [i] = facts;
-}return emptyArray;
+  var factString = `${musicians[i]} plays ${instruments[i]}`;
+  factArray [i] = factString;
+}return factArray;
 }
 
-function johnLennonFacts(facts[]){
-  while (j = 0, j < facts.length, j++) {
-    var exclamation = facts[] + ' !!!';
+function johnLennonFacts(facts){
+  var exclamation = [];
+  var j = 0;
+  while (j < facts.length) {
+    j++;
+    exclamation [j] = `${facts[j]} !!!`;
   } return exclamation;
 }
 
