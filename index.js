@@ -20,9 +20,9 @@ function iLoveTheBeatles(n){
   var ray = [];
   var k = 0;
     do {
-      ray [k] = "I love the Beatles !"; 
+      ray [k] = "I love the Beatles !";
       k++;}
-    while (k < ray.length); 
-  } 
+    while (k < ray.length);
+  }
   return ray;
 }
