@@ -23,6 +23,6 @@ function iLoveTheBeatles(n){
       ray [k] = "I love the Beatles !";
       k++;}
     while (k < ray.length);
-  }
+  
   return ray;
 }
